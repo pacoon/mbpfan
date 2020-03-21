@@ -1,6 +1,7 @@
 /**
  *  Copyright (C) (2012-present) Daniel Graziotin <daniel@ineed.coffee>
  *  Modifications (2017-present) by Robert Musial <rmusial@fastmail.com>
+ *  Modifications (2020-present) by Rene Saavedra <pacoon@protonmail.com>
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -37,7 +38,7 @@ int daemonize = 1;
 int verbose = 0;
 
 const char *PROGRAM_NAME = "mbpfan";
-const char *PROGRAM_VERSION = "2.2.0";
+const char *PROGRAM_VERSION = "2.2.1";
 const char *PROGRAM_PID = "/var/run/mbpfan.pid";
 
 const char *CORETEMP_PATH = "/sys/devices/platform/coretemp.0";
